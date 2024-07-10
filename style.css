@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(228, 225, 221);
+    justify-content: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: beige;
+}
+
+.header-container img {
+    margin: 0 50px;
+    border-radius: 10px;
+}
+
+.header-container .english {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+.header-container .tamil {
+    order: -1;
+    font-family: 'Baloo Thambi 2', cursive;
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.header-container {
+    text-align: center;
+    padding: 20px;
+}
+.header-container img {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+  }
+  
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+  
+li.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d0bdbd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+  
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+ @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  }
+  .about-section {
+    text-align: left;
+    margin: 50px auto; 
+    max-width: auto; 
+    padding: 20px; 
+}
+.about
+{
+    text-align: center;
+}
+.abt{
+    font-family: 'Baloo Thambi 2', cursive;
+    padding: 20px 0;
+}
+
+.container {
+    width: auto;
+    max-width: auto;
+    padding:  70px 50px;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+    width: auto;
+  }
+  
+  .login-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: calc(100% - 500px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: calc(100% - 500px);
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
